@@ -1,1 +1,1 @@
-# shopify_app_course
+# :sparkles: shopify_app_course :sparkles:
