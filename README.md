@@ -1,4 +1,4 @@
-# :sparkles: Shopify App Development Course Sourse Files :sparkles:
+# :sparkles: Elena - Shopify App Development Course Sourse Files :sparkles:
 
 Shopify is growing exponentially! A lot of eCommerce businesses are being built using Shopify. Why not take this opportunity to learn how to create a Shopify app and make a profit out of it by making an app that works and helps Shopify merchants.
 
