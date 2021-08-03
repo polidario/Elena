@@ -17,7 +17,7 @@
     "@shopify/koa-shopify-auth": "^3.1.72",
     "@shopify/polaris": "^5.10.0",
     "@zeit/next-css": "^1.0.1",
-    "axios": "^0.21.0",
+    "axios": "^0.21.1",
     "dotenv": "^8.2.0",
     "interweave": "^12.6.0",
     "isomorphic-fetch": "^3.0.0",
