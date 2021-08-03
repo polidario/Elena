@@ -19,35 +19,38 @@ Feel free to follow the course lessons 1 to 7 in case you wish to use this proje
 
 __What are the lessons covered by this repository?__
 
-:heavy_check_mark: Lecture 1: Introduction
+Status | Lectures
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
 
-:heavy_check_mark: Lecture 2: Getting Started
+:heavy_check_mark: | Introduction
+:heavy_check_mark: | Getting Started
+:heavy_check_mark: | Creating the app
 
-:heavy_check_mark: Lecture 3: Creating the app
+:heavy_check_mark: | Text Editor
 
-:heavy_check_mark: Lecture 4: Text Editor
+:heavy_check_mark: | Creating the project and Installing the app to development stores
 
-:heavy_check_mark: Lecture 5: Creating the project and Installing the app to development stores
+:heavy_check_mark: | Installing Polaris
 
-:heavy_check_mark: Lecture 6: Installing Polaris
+:heavy_check_mark: | Errors that you might encounter
 
-:heavy_check_mark: Lecture 7: Errors that you might encounter
+:heavy_check_mark: | Getting Products
 
-:heavy_check_mark: Lecture 8: Getting Products
+:heavy_check_mark: | Displaying Product List
 
-:heavy_check_mark: Lecture 9: Displaying Product List
+:heavy_check_mark: | Deleting Products
 
-:heavy_check_mark: Lecture 10: Deleting Products
+:heavy_check_mark: | Creating Script Tags
 
-:heavy_check_mark: Lecture 11: Creating Script Tags
+:heavy_check_mark: | Preventing Script Tags From Being Installed Twice
 
-:heavy_check_mark: Lecture 12: Preventing Script Tags From Being Installed Twice
+:heavy_check_mark: | Deleting Script Tags
 
-:heavy_check_mark: Lecture 13: Deleting Script Tags
+:hourglass: | Creating App Subscription
 
-:hourglass: Lecture 14: Creating App Subscription
-
-:heavy_check_mark: Lecture 15: Draft Order Create & Complete
+:heavy_check_mark: | Draft Order Create & Complete
 
 __I have a question, where can I contact you?__
 
