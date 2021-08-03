@@ -21,9 +21,6 @@ __What are the lessons covered by this repository?__
 
 Status | Lectures
 ------------ | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
-
 :heavy_check_mark: | Introduction
 :heavy_check_mark: | Getting Started
 :heavy_check_mark: | Creating the app
