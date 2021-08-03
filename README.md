@@ -1,4 +1,4 @@
-# Shopify App Development Course Sourse Files
+# :sparkles: Elena - Shopify App Development Course Sourse Files :sparkles:
 
 Shopify is growing exponentially! A lot of eCommerce businesses are being built using Shopify. Why not take this opportunity to learn how to create a Shopify app and make a profit out of it by making an app that works and helps Shopify merchants.
 
@@ -19,8 +19,6 @@ Feel free to follow the course lessons 1 to 7 in case you wish to use this proje
 
 __I have a question, where can I contact you?__
 
-If you have any questions, you may contact me through our [Contact us](https://weeklyhow.com/contact-us/) page or through my email address at bernard@weeklyhow.com
+If you have any questions, PLEASE do ask in the course's QnA section
 
 This project file is produced and brought to you by WeeklyHow.
-
-
