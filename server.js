@@ -43,7 +43,16 @@ app.prepare().then(() => {
         createShopifyAuth({
             apiKey: SHOPIFY_API_KEY,
             secret: SHOPIFY_API_SECRET_KEY,
-            scopes: ['read_products', 'write_products', 'read_script_tags', 'write_script_tags'],
+            scopes: [
+                'read_products',
+                'write_products',
+                'read_script_tags',
+                'write_script_tags',
+                'read_orders',
+                'write_orders',
+                'read_draft_orders',
+                'write_draft_orders'
+            ],
             afterAuth(ctx) {
             const { shop, accessToken } = ctx.session;
             ctx.redirect('https://' + shop + '/admin/apps');
@@ -154,6 +163,77 @@ app.prepare().then(() => {
         await axios.delete(url, { headers: shopifyHeader(accessToken) })
             .then(response => { console.log(response); })
             .catch(error => console.log(error));
+
+        ctx.res.statusCode = 200;
+    });
+
+    //======================================================//
+    //          CREATE ORDER ROUTER
+    //======================================================//
+
+    router.get('/createDraftOrder', verifyRequest(), async (ctx, resp) => {
+        const { shop, accessToken } = ctx.session;
+        const title = ctx.query.title;
+        const quantity = ctx.query.quantity;
+        const price = ctx.query.price;
+
+        const url = `https://${shop}/admin/api/2020-10/graphql.json`;
+
+        const CREATE_DRAFT_ORDER_QUERY = JSON.stringify({
+            query: `mutation {
+                draftOrderCreate (
+                    input: {
+                        lineItems: {
+                            title: "${title}"
+                            quantity: ${quantity}
+                            originalUnitPrice: "${price}"
+                        }
+                    }
+                ) {
+                    draftOrder {
+                        id
+                    }
+                    userErrors {
+                        message
+                    }
+                }
+            }`
+        });
+
+        const response = await fetch(url, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-Shopify-Access-Token': accessToken
+            },
+            body: CREATE_DRAFT_ORDER_QUERY
+        });
+
+        const responseJson = await response.json();
+
+        const COMPLETE_DRAFT_ORDER_QUERY = JSON.stringify({
+            query: `mutation {
+                draftOrderComplete (
+                    id: "${responseJson.data.draftOrderCreate.draftOrder.id}"
+                ) {
+                    draftOrder {
+                        id
+                    }
+                }
+            }`
+        });
+
+        const completeDraftOrderResponse = await fetch(url, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-Shopify-Access-Token': accessToken
+            },
+            body: COMPLETE_DRAFT_ORDER_QUERY
+        });
+
+        const responseCompleteDraftOrderJson = await completeDraftOrderResponse.json();
+        console.log(responseCompleteDraftOrderJson);
 
         ctx.res.statusCode = 200;
     });
