@@ -24,29 +24,17 @@ Status | Lectures
 :heavy_check_mark: | Introduction
 :heavy_check_mark: | Getting Started
 :heavy_check_mark: | Creating the app
-
 :heavy_check_mark: | Text Editor
-
 :heavy_check_mark: | Creating the project and Installing the app to development stores
-
 :heavy_check_mark: | Installing Polaris
-
 :heavy_check_mark: | Errors that you might encounter
-
 :heavy_check_mark: | Getting Products
-
 :heavy_check_mark: | Displaying Product List
-
 :heavy_check_mark: | Deleting Products
-
 :heavy_check_mark: | Creating Script Tags
-
 :heavy_check_mark: | Preventing Script Tags From Being Installed Twice
-
 :heavy_check_mark: | Deleting Script Tags
-
 :hourglass: | Creating App Subscription
-
 :heavy_check_mark: | Draft Order Create & Complete
 
 __I have a question, where can I contact you?__
