@@ -17,6 +17,24 @@ Sure! Though I would recommend if you use your work instead of these files. That
 Feel free to follow the course lessons 1 to 7 in case you wish to use this project:
 [https://weeklyhow.com/learn/shopify-app-dev](https://weeklyhow.com/learn/shopify-app-dev)
 
+__What are the lessons covered by this repository?__
+
+:heavy_check_mark: Lecture 1: Introduction
+:heavy_check_mark: Lecture 2: Getting Started
+:heavy_check_mark: Lecture 3: Creating the app
+:heavy_check_mark: Lecture 4: Text Editor
+:heavy_check_mark: Lecture 5: Creating the project and Installing the app to development stores
+:heavy_check_mark: Lecture 6: Installing Polaris
+:heavy_check_mark: Lecture 7: Errors that you might encounter
+:heavy_check_mark: Lecture 8: Getting Products
+:heavy_check_mark: Lecture 9: Displaying Product List
+:heavy_check_mark: Lecture 10: Deleting Products
+:heavy_check_mark: Lecture 11: Creating Script Tags
+:heavy_check_mark: Lecture 12: Preventing Script Tags From Being Installed Twice
+:heavy_check_mark: Lecture 13: Deleting Script Tags
+:hourglass: Lecture 14: Creating App Subscription
+:heavy_check_mark: Lecture 15: Draft Order Create & Complete
+
 __I have a question, where can I contact you?__
 
 If you have any questions, PLEASE do ask in the course's QnA section
