@@ -60,7 +60,7 @@ const ProductList = (props) => {
                     const {id, title, body_html} = product;
                     //console.log(product);
 
-                    const url = product.image.src;
+                    const url = product.image != null ? product.image.src : '';
                     const media = <Thumbnail source={url} alt={title} />;
 
                     return (
